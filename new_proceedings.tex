@@ -23,21 +23,21 @@
 The stated Process is of such importance because the
 $b \to s \mu \mu$ transition is forbidden at tree level due to FCNC.
 A study of this is preferebly done with indirect searches because the energy scales can be set much larger than in in direct searches, therefore new Physics(NP)is more accesible.
-\begin{figure}
+\begin{figure}[htb]
   \centering
   \includegraphics[width=0.5\textwidth]{pictures/sm_flavordiagram.png}
   \caption{Process in standard model.}
   \label{fig:sm_process}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[htb]
   \centering
   \includegraphics[width=0.5\textwidth]{pictures/NP_flavordiagram.png}
   \caption{Process in new physics model.}
   \label{fig:np_process}
 \end{figure}
 
-In figure \ref{fig:np_process}, instead of a suppressed loop via a W-boson which decays weak into a neutral gauge boson and then further into two muons, the NP model suggest a leptoquark as "gauge boson".
+In figure \ref{fig:np_process}\cite{cern}, instead of a suppressed loop via a W-boson which decays weak into a neutral gauge boson and then further into two muons, the NP model suggest a leptoquark as "gauge boson".
 Leptoquarks (mostly denoted as X- and Y-Boson) are particles postulate by the GIM model, which provides a way to change a quark into a lepton via the decay channel
 \begin{equation*}
   X \rightarrow l^{+} + \bar{\symup{D}}
@@ -54,10 +54,10 @@ With these changes an effective Hamiltonian $H_{eff}$ can be written as
 \end{equation*}
 where $C_i$ are the short ranged ilson coefficents which we ant to study. The $O_i$ are the long distance, low energy QCD operators which follow the formfactors.
 
-\section{Angular Analysis}
+\section{angular Analysis}
 With the angular analysis we want to measure the decay rate of a process as a function of the final state decay angles, which are schematically shown in figure \ref{fig:angle_1}.
 
-\begin{figure}
+\begin{figure}[htb]
   \centering
   \includegraphics[width=0.5\textwidth]{pictures/angle_1.png}
   \caption{schematical image of decay angles.}
@@ -73,14 +73,14 @@ This is also true for the Pion and the Kaon.
 The angle $\phi$ is the the angle between the normalvector of the K-$\pi$-plane and the $\mu$-$\mu$-plane.
 This analysis can give access to more observables with reduced uncertainties.
 %
-\section{Early LHCb Measurementsand local tension}
+\section{early LHCb Measurementsand local tension}
 Angular analysis for local tension in $P\prime_5$ performed by other collaborations such as ATLAS and CMS show similar results but Data taken stops at roughly the $J\/\Psi$ Mass due to the resonant background.
 Therefore the ATLAS measurement is not so good.
 As seen in some global fits, the shift in the wilson coefficent
-$\text{Re}\left(C_9\right)$, the deviations in these wilson coefficents or up to $\num{3-5}\sigma$. In general, these fits are a good tool to learn from the fits.
+$\text{Re}\left(C_9\right)$, the deviations in these wilson coefficents or up to $3$ - $5$ $\sigma$. In general, these fits are a good tool to learn from the fits.
 
-\section{The data set and Selection of Candidates}
-The data used comes from the years 2011, 2012, which was Run 1, and 2016. The center of mass energies were $\SI{7, 8, 13}{\tera\electronvolt}$ respectively.
+\section{the data set and Selection of Candidates}
+The data used comes from the years 2011, 2012, which was Run 1, and 2016. The center of mass energies were 7, 8 and 13 $\si{\tera\electronvolt}$ respectively.
 The data taken in the later years is nearly double from what the have taken in 2011.
 
 For the stated process, it is required that the impact parameter for the daughters are quite large because they don't come from the primary vertex.
@@ -93,26 +93,73 @@ The signal regions for the decay mode $b \to s \mu \mu$ can the be interpreted s
 
 The binning used is historically conditioned. The only cause for that is to compact the data. One boundary at $\SI{1.1}{\giga\electronvolt}$ is set to delete the $\phi(1020)$ resonance from the data.
 
-\section{Angular description}
+\section{angular fit model}
 To describe now the physics behind the angular analysis, instead of using the non-pertubative QCD form factors and the wilson coefficents, angular amplitudes $\symup{A}^{L\/R}$ are defined.
+Then we measure in the bins of $q^2 = m^2(\mu \mu)$ by firstly integrating over $q^2$ and secondly combining this with the $B^0$ and $\bar{B}^0$ decays.
+This results in a so called CP-averaged basis $S_i$.
+The resulting $\frac{\symup{d}\Gamma}{\symup{d}q^2}$ spectrum is then
+\begin{equation*}
+  \frac{1}{\frac{\symup{d}\left(\Gamma + \bar{\Gamma}\right)}{\symup{d}q^2}} \cdot
+  \frac{\symup{d}\left(\Gamma + \bar{\Gamma}\right)}{\symup{d}\cos\theta_l\symup{d}\cos\theta_k\symup{d}\phi}
+  \rvert_P = \frac{9}{32\pi}\cdot f(F_{L}, \theta_{k}, \theta_{l}, A_{FB}, S_{i})
+\end{equation*}
 
-% \section{angular fit model vs full fit model}
-%
-%
-% \section{Efficiency}
-%
-%
-% \section{s-wave contribution}
-%
-%
-% \section{Uncertainties}
-%
-%
-% \section{Discussion}
-%
-%
-% \section{Conclusion}
+Here, the $F_L$ describes the fraction of longitudinal polarisation of the $K^{0*}$. $A_{FB}$ ist the forward/backward asymmetry of the dimuon system.
+In order the reduce uncertainties, the first basis of the $S_i$ is transformed into a basis $P_i$ which takes ratios of observables\cite{cern}.
 
+\section{full fit model}
+In the full fit model the shape of the invariant mass plots are used to determine the amount of signal and background in the data.
+\begin{equation*}
+  \symup{PDF}_{total} = f_{sig}\symup{PDF}_{sig}(\vec{\Omega}, m) +
+  (1 - f_{sig})\symup{PDF}_{bkg}
+\end{equation*}
 
-% \printbibliography{}
+The PDF function can be separated into an angular part and a massive part.
+After that a maximum likelihood fit is performed.
+As seen in figure \ref{fig:fullfit} the massive part of the signal PDF is a gaussian fucntion with a radiative tail and the background PDF results in a exponential function.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=0.5\textwidth]{pictures/fullfit.png}
+  \caption{invariant B mass of Run 1 LHCb data.}
+  \label{fig:fullfit}
+\end{figure}
+
+Because of the factorization of the signal and background PDF
+\begin{equation*}
+  \symup{PDF}_{sig}(\vec{\Omega}, m) = \symup{PDF}_{sig}(\vec{\Omega}) \times \symup{PDF}_{sig}(m)
+\end{equation*}
+the angular part of the signal PDF of the Run 1 data and the data from 2016 can be shared in the analysis to perform a simultaneous fit $\sum_I S_{i, q_{bin}^2} f_i(\Omega)$.
+
+\section{modelling the efficiencies}
+Because the angular distribution and the $q^2$ distribution are influenced by the efficiencies, the parametrisation must be well known.
+This is done via an acceptance function, her the legendre polynomials. With 3 angles and $q^2$ a 4D parametrisation results in 4 coefficents
+
+\section{s-wave contribution}
+The $K \pi$ final state has more than one spin eigenstate. Therefore, additional terms are needed to differentiate between these states.
+Because $K \pi \mu \mu$ can be produced in a vector state which disturbs the angular distribution, the different structures of the spin 1 $K^{0*}$ and the flat structure of the $K \pi$ state need to be analyzed.
+
+\section{uncertainties}
+The dominant systematic uncertainties across the $q^2$ bins are acceptance variation with $q^2$, peaking backgrounds and the bias correction.
+The whole table of uncertainties is shown in figure \ref{fig:unc}\cite{cern}.
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=0.5\textwidth]{pictures/uncertainties.png}
+  \caption{table of systematic uncertainties.}
+  \label{fig:unc}
+\end{figure}
+
+Because of different decays in the same target finalstate, for example $\bar{\Lambda}_b^0 \to \bar{p} \to \pi^{-} K^{+} \mu \mu$, events that are drawn from distributions of these peaking backgrounds are not taken into the fit.
+Bias corrections come up if boundary effects like $F_S > 0$ are required.
+\begin{equation*}
+  ~\frac{\symup{d}\Gamma}{\symup{d}q^2}\rvert_{S + P} = \left(1 - F_S \right) ~\frac{\symup{d}\Gamma}{\symup{d}q^2}\rvert_P
+\end{equation*}
+For small $F_S$ the bias towards higher values biases the P-wave and vice versa.
+
+\section{Results and conclusion}
+If the energy threshold is so big, that a $c\bar{c}$ pair can be produced in a loop which generates a $J \/ \Psi$, the would be a possibility to detect it.
+
+The tension is confirmed with the 2016 data set.
+The significance of the discrepancy is nuisance parameter dependend and also depends on the $q^2$ bins.
+\printbibliography{}
 \end{document}
