@@ -2183,7 +2183,7 @@
     <bcf:datasource type="file" datatype="bibtex">programme.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">cern</bcf:citekey>
+    <bcf:citekey order="1">Bobeth:2010wg</bcf:citekey>
     <bcf:citekey order="2">cern</bcf:citekey>
     <bcf:citekey order="3">cern</bcf:citekey>
   </bcf:section>

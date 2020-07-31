@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber build/new_proceedings"] 1596122215 "build/new_proceedings.bcf" "build/new_proceedings.bbl" "build/new_proceedings" 1596122231
-  "build/new_proceedings.bcf" 1596122231 101794 b0750f828e5c9e6adeb3ddd12a0c4553 "lualatex"
-  "lit.bib" 1594971420 3454 7b256ccc6eda3bede1b606029ce53215 ""
+["biber build/new_proceedings"] 1596205129 "build/new_proceedings.bcf" "build/new_proceedings.bbl" "build/new_proceedings" 1596205459
+  "build/new_proceedings.bcf" 1596205459 101803 5abf965f1d040fe6b62582cceed3247a "lualatex"
+  "lit.bib" 1596203169 5876 846263a93c1326f5979c5566cb66b9e2 ""
   (generated)
-  "build/new_proceedings.blg"
   "build/new_proceedings.bbl"
-["lualatex"] 1596122226 "new_proceedings.tex" "build/new_proceedings.pdf" "new_proceedings" 1596122231
+  "build/new_proceedings.blg"
+["lualatex"] 1596205454 "new_proceedings.tex" "build/new_proceedings.pdf" "new_proceedings" 1596205459
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
@@ -19,6 +19,7 @@
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf" 1255129361 111948 cee9e390fd6d23cfb4d6871ba2a9ee5b ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf" 1255129361 112680 8bab1cbacdfe2fe22ce627aaf5174f5d ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf" 1255129361 108740 82741d58d9334b5242a3acb1d982bd05 ""
+  "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/xits/XITSMath-Regular.otf" 1593726388 548096 1d7ac9ed18c8aac00d80beb161b79f8d ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1246382020 928 2dc8d444221b7a635bb58038579b861a ""
@@ -337,19 +338,17 @@
   "/home/nbreer/.local/texlive/2020/texmf-var/luatex-cache/generic-dev/names/luaotfload-names.luc" 1594970721 1273657 091e2941a3b87ec0243f0b0c042fc8d4 ""
   "/home/nbreer/.local/texlive/2020/texmf-var/tex/generic/config/language.dat.lua" 1594939795 17556 b8b072a7d51a633e2d3e153c37c233e1 ""
   "/home/nbreer/.local/texlive/2020/texmf-var/web2c/luahbtex/lualatex.fmt" 1594939820 2676083 dde2cb981ae1f5f693542a37e92a2d18 ""
-  "build/new_proceedings.aux" 1596122231 7810 d752724f4b273f7937675c9dea7ba989 "lualatex"
-  "build/new_proceedings.bbl" 1596122216 1743 d8876a2a74912a3c24b3a0e1701a27cb "biber build/new_proceedings"
-  "build/new_proceedings.run.xml" 1596122231 2475 6ddc237dda7470546e9a9144753ef507 "lualatex"
+  "build/new_proceedings.aux" 1596205459 2439 0368bef469f1b3dc7b4323df328dab19 "lualatex"
+  "build/new_proceedings.bbl" 1596205131 3383 88c00421f1acd95710c749e9db2fd8ec "biber build/new_proceedings"
+  "build/new_proceedings.run.xml" 1596205459 2475 6ddc237dda7470546e9a9144753ef507 "lualatex"
+  "flavor_plots/angular_describtion.png" 1596203148 13312 b5c8574957d86faa031af29f1b7deb7d ""
   "header.tex" 1596122202 4402 68d2f4a700b80c892ef74d1b017e7c30 ""
-  "new_proceedings.tex" 1596121701 9699 a2bae773de0449aa1ee23cd0e2c4fa22 ""
-  "pictures/NP_flavordiagram.png" 1594970697 24023 d6946b76e5f8ac35ba1411132aeb29b5 ""
-  "pictures/angle_1.png" 1594970697 17925 c7d001ef8c9f1a2eb9944b37553a3dc5 ""
+  "new_proceedings.tex" 1596205451 10113 413cec4998a406ad98f39cd2844eb7bf ""
   "pictures/fullfit.png" 1594973441 46003 fad57f87eb0eed67a90a629901278403 ""
-  "pictures/sm_flavordiagram.png" 1594970697 36022 d5218ab0f479823a05153217f6678d3f ""
   "pictures/uncertainties.png" 1594974956 121208 35cd2fc0afed1f91a475395ab329bee3 ""
   (generated)
-  "build/new_proceedings.run.xml"
-  "build/new_proceedings.bcf"
   "build/new_proceedings.aux"
-  "build/new_proceedings.log"
+  "build/new_proceedings.run.xml"
   "build/new_proceedings.pdf"
+  "build/new_proceedings.log"
+  "build/new_proceedings.bcf"

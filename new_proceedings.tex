@@ -27,50 +27,58 @@ The stated Process is of such importance because the
 $b \to s \mu \mu$ transition is forbidden at tree level due to FCNC and can only occur at loop order.
 Because of that, these processes are much more sensitive to new physics(NP).
 
-\begin{figure}[htb]
-  \centering
-  \includegraphics[width=0.5\textwidth]{pictures/sm_flavordiagram.png}
-  \caption{Process in standard model.}
-  \label{fig:sm_process}
-\end{figure}
+% \begin{figure}[htb]
+%   \centering
+%   \includegraphics[width=0.5\textwidth]{flavor_plots/wilson_c7.png}
+%   \caption{Process in standard model.}
+%   \label{fig:sm_process}
+% \end{figure}
+%
+% \begin{figure}[htb]
+%   \centering
+%   \includegraphics[width=0.5\textwidth]{flavor_plots/wilson_c9_c10.png}
+%   \caption{Process in new physics model.}
+%   \label{fig:np_process}
+% \end{figure}
 
-\begin{figure}[htb]
-  \centering
-  \includegraphics[width=0.5\textwidth]{pictures/NP_flavordiagram.png}
-  \caption{Process in new physics model.}
-  \label{fig:np_process}
-\end{figure}
+To gather information about short distance NP above the SM energy scale $\mu$, wilson coefficients $C_i(\mu)$ and low-energy QCD Operators $O_i$ are used to describe that.
 
-% \section{transition in effective theory}
-Instead of calculating the well known transition via box diagram, we now factorize out the loops and replace them with an effective coupling (analogous to 4f coupling).
-This results in a 4-particle-vertex which is  now described with Wilson coefficents with are sensitive to NP.
+The wilson coefficients $C_7$, $C_9$ and $C_{10}$ are of great importance since observables like the forward-backward asymmetry and $P_5\prime$ are sensitive for $C_9$ especially.
 
-With these changes an effective Hamiltonian $H_{eff}$ can be written as
+In an effective theory, $C_9$ and $C_{10}$ are used to describe the contribution from loops, in which electroweak gauge bosons are produced.  wilson coefficient $C_7$ describes the contribution from loopdiagramms which produce photons from the loops.
+
+This can be summarized by an effective hamiltonian
 \begin{equation*}
-  H_{eff} = - \frac{4 G_f}{\sqrt{2}} \symup{V}_{tb} \symup{V}_ts^{*} \sum_i
-  \left( C_i \cdot O_i + C_i\prime \cdot O_i\prime \right)
+  H_{eff} = - \frac{4 G_f}{\sqrt{2}} \symup{V}_{tb} \symup{V}_{ts}^{*} \sum_i
+  C_i \cdot O_i + \text{h.c.}
 \end{equation*}
-where $C_i$ are the short ranged ilson coefficents which we ant to study. The $O_i$ are the long distance, low energy QCD operators which follow the formfactors.
+
+$G_F$ is Fermi's constant, $\mu$ ist the renormalization scale, $\symup{V}_{tb} \symup{V}_ts^{*}$ is the contains leading flavor factors of the SM which lie in the CKM matrix elements $V_{ij}$
 
 % \section{angular Analysis}
-With the angular analysis we want to measure the decay rate of a process as a function of the final state decay angles, which are schematically shown in figure \ref{fig:angle_1}.
+To measure the decay rate as a function of angles of the decay products, an angular analysis is performed.
+The definition of the angular observables $\theta_{k}$, $\theta_{l}$ and $\phi$ is schematically shown in figure \ref{fig:angle_1}
 
 \begin{figure}[htb]
   \centering
-  \includegraphics[width=0.5\textwidth]{pictures/angle_1.png}
-  \caption{schematical image of decay angles.}
+  \includegraphics[width=0.5\textwidth]{flavor_plots/angular_describtion.png}
+  \caption{schematical image of the angular observables.}
   \label{fig:angle_1}
 \end{figure}
 
-The three important angles are $\theta_{k}$, $\theta_{l}$ and $\phi$.
-Because the two leptons and the Kaon and Pion are produced in sort of opposite directions, $\theta_{k}$ is the angle between the Kaon and the vector sum of the Kaon and the Pion, which is the general flight direction.
-For $\theta_{l}$ it is the same argumentation but for the positive lepton and the fligh direction of the leptons.
+In this analysis, the forward-backard asymmetry $A_{FB}$, $F_L$ the fraction of the longitudinal polarisation of the $K^{*0}$ and the decay rate of the process $B^0 \to K^{*0} \mu \mu$ was measured. The definition of the angular observables are the following.
+$\theta_{l}$ is the angle between the negatively charged lepton and  $\bar{B}$ in the dimuon center of mass system (c.m.s).
+$\theta_{k}$ is the angle between the Kaon and the $\bar{B}$ in the $K^{*0}$ c.m.s..
+The angle between the $K^{*0}$-plane and the dimuon-plane is defined by the angle $\phi$\cite{Bobeth:2010wg}.
 
-In general, the leptons do not fly in the exact same direction, so their dircetion vector span a plane.
-This is also true for the Pion and the Kaon.
-The angle $\phi$ is the the angle between the normalvector of the K-$\pi$-plane and the $\mu$-$\mu$-plane.
-This analysis can give access to more observables with reduced uncertainties.
-%
+Considering that S-wave contribution, spinless $K^{+}\pi^{-}$ constellations, can pollute the measurement, a parametrization such as $\left(1 - F_S\right)$ for this was taken into account.
+The interference Amplitude between P-wave and S-wave decays are parametrized with an $A_S$ term.
+The complete angular distribution for the $B^0 \to K^{*0} \mu \mu$ decay reads
+\begin{equation*}
+  \frac{1}{\Gamma}\frac{\symup{d}^3\Gamma}{\symup{d}\theta_k\symup{d}\theta_l\symup{d}q^2} = \frac{9}{16}\left(\left[\frac{2}{3}F_s + \frac{4}{3}A_S\cos \theta_k\right]\dotsi\right)
+\end{equation*}
+Since $A_{FB}$, $F_L$ and $\mathcal{A}\times\text{E}$ do not depend on the angle $\phi$ it is already integrated out.
+
 % \section{early LHCb Measurementsand local tension}
 Angular analysis for local tension in $P\prime_5$ performed by other collaborations such as ATLAS and CMS show similar results but Data taken stops at roughly the $J\/\Psi$ Mass due to the resonant background.
 Therefore the ATLAS measurement is not so good.

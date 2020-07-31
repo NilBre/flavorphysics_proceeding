@@ -19,20 +19,65 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Bobeth:2010wg}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2ef016b2c2603184fc73884071dc1a4a}{%
+           family={Bobeth},
+           familyi={B\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b6fbc01e3e5e8f429cfbc472f9d865f4}{%
+           family={Hiller},
+           familyi={H\bibinitperiod},
+           given={Gudrun},
+           giveni={G\bibinitperiod}}}%
+        {{hash=808ffc5ee43dc11d2d873efd72cad864}{%
+           family={Dyk},
+           familyi={D\bibinitperiod},
+           given={Danny},
+           giveni={D\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{2977bf74f87684af8a6f3d2b1d523302}
+      \strng{fullhash}{2977bf74f87684af8a6f3d2b1d523302}
+      \strng{bibnamehash}{2977bf74f87684af8a6f3d2b1d523302}
+      \strng{authorbibnamehash}{2977bf74f87684af8a6f3d2b1d523302}
+      \strng{authornamehash}{2977bf74f87684af8a6f3d2b1d523302}
+      \strng{authorfullhash}{2977bf74f87684af8a6f3d2b1d523302}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{The Benefits of $\bar{B} -> \bar{K}^* l^+ l^-$ Decays at Low Recoil}}
+      \field{volume}{07}
+      \field{year}{2010}
+      \field{pages}{098}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/JHEP07(2010)098
+      \endverb
+      \verb{eprint}
+      \verb 1006.5013
+      \endverb
+    \endentry
     \entry{cern}{online}{}
       \name{author}{1}{}{%
-        {{hash=98190ed8e4f2234b08986e54e08c09b2}{%
+        {{hash=9131c423b9d0a22bd8f5a409ae1a1059}{%
            family={Smith},
            familyi={S\bibinitperiod},
-           given={Elune\bibnamedelima Anne},
+           given={Eluned\bibnamedelima Anne},
            giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
-      \strng{namehash}{98190ed8e4f2234b08986e54e08c09b2}
-      \strng{fullhash}{98190ed8e4f2234b08986e54e08c09b2}
-      \strng{bibnamehash}{98190ed8e4f2234b08986e54e08c09b2}
-      \strng{authorbibnamehash}{98190ed8e4f2234b08986e54e08c09b2}
-      \strng{authornamehash}{98190ed8e4f2234b08986e54e08c09b2}
-      \strng{authorfullhash}{98190ed8e4f2234b08986e54e08c09b2}
+      \strng{namehash}{9131c423b9d0a22bd8f5a409ae1a1059}
+      \strng{fullhash}{9131c423b9d0a22bd8f5a409ae1a1059}
+      \strng{bibnamehash}{9131c423b9d0a22bd8f5a409ae1a1059}
+      \strng{authorbibnamehash}{9131c423b9d0a22bd8f5a409ae1a1059}
+      \strng{authornamehash}{9131c423b9d0a22bd8f5a409ae1a1059}
+      \strng{authorfullhash}{9131c423b9d0a22bd8f5a409ae1a1059}
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{labelnamesource}{author}
