@@ -19,6 +19,84 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Blake:2017wjz}{article}{}
+      \name{author}{6}{}{%
+        {{hash=dd3959d70d288f993c459915d90acb31}{%
+           family={Blake},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4a484b7f84c6359a79e0a486cd2a7654}{%
+           family={Gersabeck},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=37a7e34c41e1cf30013182ef3063f4ae}{%
+           family={Hofer},
+           familyi={H\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8654674f3cda22078267f046407905a1}{%
+           family={Jäger},
+           familyi={J\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4502ea5dcc2b2cf1ac11fe01b5f68826}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0114159b43ee34027b18c5e2dfbba703}{%
+           family={Zwicky},
+           familyi={Z\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=daa3b0c418fad4b522aa1c985a787bf6}{%
+           family={Foka},
+           familyi={F\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0d7519397933beb3cf46987dd02c19bb}{%
+           family={Brambilla},
+           familyi={B\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=2948b328b7e8768d372a61902042b5ca}{%
+           family={Kovalenko},
+           familyi={K\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{09e07ab57a15b68f42867fabbbca5a65}
+      \strng{fullhash}{188b7ed6a35a0bc9cf1f72231c3315de}
+      \strng{bibnamehash}{09e07ab57a15b68f42867fabbbca5a65}
+      \strng{authorbibnamehash}{09e07ab57a15b68f42867fabbbca5a65}
+      \strng{authornamehash}{09e07ab57a15b68f42867fabbbca5a65}
+      \strng{authorfullhash}{188b7ed6a35a0bc9cf1f72231c3315de}
+      \strng{editorbibnamehash}{28e0dc8e706442cde9605d023e57bb35}
+      \strng{editornamehash}{28e0dc8e706442cde9605d023e57bb35}
+      \strng{editorfullhash}{28e0dc8e706442cde9605d023e57bb35}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{EPJ Web Conf.}
+      \field{title}{{Round table: Flavour anomalies in b $\rightarrow$ sl+l$-$ processes}}
+      \field{volume}{137}
+      \field{year}{2017}
+      \field{pages}{01001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1051/epjconf/201713701001
+      \endverb
+      \verb{eprint}
+      \verb 1703.10005
+      \endverb
+    \endentry
     \entry{Bobeth:2010wg}{article}{}
       \name{author}{3}{}{%
         {{hash=2ef016b2c2603184fc73884071dc1a4a}{%
@@ -62,6 +140,41 @@
       \endverb
       \verb{eprint}
       \verb 1006.5013
+      \endverb
+    \endentry
+    \entry{Chatrchyan:2013cda}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=7773e2d631b632e1abd826d029173e41}{%
+           family={Chatrchyan},
+           familyi={C\bibinitperiod},
+           given={Serguei},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{fullhash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{bibnamehash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{authorbibnamehash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{authornamehash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{authorfullhash}{1641571a4f1b8e722d84b42b64c15189}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Lett. B}
+      \field{title}{{Angular Analysis and Branching Fraction Measurement of the Decay $B^0 \to K^{*0} \mu^+\mu^-$}}
+      \field{volume}{727}
+      \field{year}{2013}
+      \field{pages}{77\bibrangedash 100}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1016/j.physletb.2013.10.017
+      \endverb
+      \verb{eprint}
+      \verb 1308.3409
       \endverb
     \endentry
     \entry{cern}{online}{}

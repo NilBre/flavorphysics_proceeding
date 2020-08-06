@@ -27,19 +27,19 @@ The stated Process is of such importance because the
 $b \to s \mu \mu$ transition is forbidden at tree level due to FCNC and can only occur at loop order.
 Because of that, these processes are much more sensitive to new physics(NP).
 
-% \begin{figure}[htb]
-%   \centering
-%   \includegraphics[width=0.5\textwidth]{flavor_plots/wilson_c7.png}
-%   \caption{Process in standard model.}
-%   \label{fig:sm_process}
-% \end{figure}
-%
-% \begin{figure}[htb]
-%   \centering
-%   \includegraphics[width=0.5\textwidth]{flavor_plots/wilson_c9_c10.png}
-%   \caption{Process in new physics model.}
-%   \label{fig:np_process}
-% \end{figure}
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=0.5\textwidth]{flavor_plots/wilson_c7.png}
+  \caption{Wilson coefficient $C_7$ in .}
+  \label{fig:sm_process}
+\end{figure}
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=0.5\textwidth]{flavor_plots/wilson_c9_c10.png}
+  \caption{Process in new physics model.}
+  \label{fig:np_process}
+\end{figure}
 
 To gather information about short distance NP above the SM energy scale $\mu$, wilson coefficients $C_i(\mu)$ and low-energy QCD Operators $O_i$ are used to describe that.
 
@@ -62,7 +62,7 @@ The definition of the angular observables $\theta_{k}$, $\theta_{l}$ and $\phi$ 
 \begin{figure}[htb]
   \centering
   \includegraphics[width=0.5\textwidth]{flavor_plots/angular_describtion.png}
-  \caption{schematical image of the angular observables.}
+  \caption{image of the angular observables.\cite{Chatrchyan:2013cda}}
   \label{fig:angle_1}
 \end{figure}
 
@@ -71,13 +71,42 @@ $\theta_{l}$ is the angle between the negatively charged lepton and  $\bar{B}$ i
 $\theta_{k}$ is the angle between the Kaon and the $\bar{B}$ in the $K^{*0}$ c.m.s..
 The angle between the $K^{*0}$-plane and the dimuon-plane is defined by the angle $\phi$\cite{Bobeth:2010wg}.
 
-Considering that S-wave contribution, spinless $K^{+}\pi^{-}$ constellations, can pollute the measurement, a parametrization such as $\left(1 - F_S\right)$ for this was taken into account.
-The interference Amplitude between P-wave and S-wave decays are parametrized with an $A_S$ term.
-The complete angular distribution for the $B^0 \to K^{*0} \mu \mu$ decay reads
+Considering that S-wave contribution, spinless $K^{+}\pi^{-}$ constellations, can pollute the measurement, therfore a parametrization such as $\left(1 - F_S\right)$ for this was taken into account where $(1 -F_S)$ is the S-wave fraction which describes the amount of S-wave contribution.
+The interference Amplitude between P-wave and S-wave decays are parametrized by $A_S$.
+The angular distribution\cite{Chatrchyan:2013cda} for the $B^0 \to K^{*0} \mu \mu$ decay reads
 \begin{equation*}
-  \frac{1}{\Gamma}\frac{\symup{d}^3\Gamma}{\symup{d}\theta_k\symup{d}\theta_l\symup{d}q^2} = \frac{9}{16}\left(\left[\frac{2}{3}F_s + \frac{4}{3}A_S\cos \theta_k\right]\dotsi\right)
+  \frac{1}{\Gamma}\frac{\symup{d}^3\Gamma}{\symup{d}\theta_k\symup{d}\theta_l\symup{d}q^2} = f\left(F_S, A_S, \theta_k, \theta_l, A_{FB}, F_L\right)
 \end{equation*}
-Since $A_{FB}$, $F_L$ and $\mathcal{A}\times\text{E}$ do not depend on the angle $\phi$ it is already integrated out.
+Since $A_{FB}$, $F_L$ and $\mathcal{A}\times\Epsilon$ do not depend on the angle $\phi$, it is already integrated out.
+The angular description for The $B$ and $\bar{B}$ are combined afterwards and expanded into a sum of the angular variables multiplied with a fitparameter, which are the $A_{FB}$, $F_L$ and $S_i$\ref{fig:dubgamma}, which are called CP-averaged observables because they contain CP violation.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=0.5\textwidth]{flavor_plots/double_gamma.png}
+  \caption{Angular description for $B$ and $\bar{B}$ combined.}
+  \label{fig:dubgamma}
+\end{figure}
+
+Then the fit in the $S_i$ basis was reparametrised to the $P_i$ basis.
+This was done to eliminate first order uncertainties in the form factors primarily.
+The fit yields seven CP violating observables including $F_L$.
+\begin{align*}
+  P_1 &= \frac{2 S_3}{1 - F_L} & P_{4,5,8}\prime &= \frac{S_{4,5,8}}{\sqrt{F_L\left( 1 - F_L \right)}} \\
+  P_2 &= \frac{2}{3}\frac{A_{FB}}{1 - F_L} &  P_6\prime &= \frac{S_7}{\sqrt{F_L\left( 1 - F_L \right)}} \\
+  P_3 &= \frac{- S_9}{1 - F_L} \\
+\end{align*}
+
+This analysis especially focuses heavily on the tension induced by $P_5\prime$, since it is a very sensitive variable for $C_9$.
+This can be seen in the range of $4$ - $8$ $\frac{\symup{GeV}}{c^4}$.
+For every collaboration a discrepancy of between the SM and the measurement
+displayed in figure \ref{p5tension}
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=0.5\textwidth]{flavor_plots/tension_in_p5.png}
+  \caption{tension in $P_5\prime$.\cite{Blake:2017wjz}}
+  \label{p5tension}
+\end{figure}
 
 % \section{early LHCb Measurementsand local tension}
 Angular analysis for local tension in $P\prime_5$ performed by other collaborations such as ATLAS and CMS show similar results but Data taken stops at roughly the $J\/\Psi$ Mass due to the resonant background.
