@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.17)  6 AUG 2020 21:06
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.17)  9 AUG 2020 19:39
  restricted system commands enabled.
 **new_proceedings.tex
 (./new_proceedings.tex
@@ -1415,9 +1415,9 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
  (./build/new_proceedings.aux
-LaTeX Info: Redefining \rmfamily on input line 30.
-LaTeX Info: Redefining \sffamily on input line 30.
-LaTeX Info: Redefining \ttfamily on input line 30.
+LaTeX Info: Redefining \rmfamily on input line 28.
+LaTeX Info: Redefining \sffamily on input line 28.
+LaTeX Info: Redefining \ttfamily on input line 28.
 )
 \openout1 = new_proceedings.aux
 
@@ -1586,202 +1586,192 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 <flavor_plots/wilson_c7.png, id=7, 280.04625pt x 136.25906pt>
 File: flavor_plots/wilson_c7.png Graphic file (type png)
 <use flavor_plots/wilson_c7.png>
-Package luatex.def Info: flavor_plots/wilson_c7.png  used on input line 32.
+Package luatex.def Info: flavor_plots/wilson_c7.png  used on input line 34.
 (luatex.def)             Requested size: 227.62204pt x 110.75594pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 32--33
+Overfull \hbox (5.0pt too wide) in paragraph at lines 34--35
  [][] 
  []
 
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 33.
+(Font)              scaled to size 7.00075pt on input line 35.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 33.
+(Font)              scaled to size 5.00053pt on input line 35.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 33.
+(Font)              scaled to size 6.99925pt on input line 35.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 33.
+(Font)              scaled to size 4.99947pt on input line 35.
 
-Overfull \hbox (92.0876pt too wide) in paragraph at lines 33--33
+Overfull \hbox (92.0876pt too wide) in paragraph at lines 35--35
 [] [] 
  []
 
 <flavor_plots/wilson_c9_c10.png, id=8, 278.54062pt x 137.7647pt>
 File: flavor_plots/wilson_c9_c10.png Graphic file (type png)
 <use flavor_plots/wilson_c9_c10.png>
-Package luatex.def Info: flavor_plots/wilson_c9_c10.png  used on input line 39.
+Package luatex.def Info: flavor_plots/wilson_c9_c10.png  used on input line 41.
 (luatex.def)             Requested size: 227.62204pt x 112.58307pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 39--40
+Overfull \hbox (5.0pt too wide) in paragraph at lines 41--42
  [][] 
  []
 
 
-Overfull \hbox (92.0876pt too wide) in paragraph at lines 40--40
+Overfull \hbox (92.0876pt too wide) in paragraph at lines 42--42
 [] [] 
  []
 
 <flavor_plots/angular_describtion.png, id=10, 218.31563pt x 151.3153pt>
 File: flavor_plots/angular_describtion.png Graphic file (type png)
 <use flavor_plots/angular_describtion.png>
-Package luatex.def Info: flavor_plots/angular_describtion.png  used on input line 64.
+Package luatex.def Info: flavor_plots/angular_describtion.png  used on input line 67.
 (luatex.def)             Requested size: 227.62204pt x 157.76593pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 64--65
+Overfull \hbox (5.0pt too wide) in paragraph at lines 67--68
  [][] 
  []
 
 
-Overfull \hbox (92.0876pt too wide) in paragraph at lines 65--65
+Overfull \hbox (92.0876pt too wide) in paragraph at lines 68--68
 [] [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 73.
+(hyperref)                removing `math shift' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 73.
+(hyperref)                removing `superscript' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 73.
+(hyperref)                removing `math shift' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\to' on input line 73.
+(hyperref)                removing `\to' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 73.
+(hyperref)                removing `math shift' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 73.
+(hyperref)                removing `superscript' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 73.
+(hyperref)                removing `math shift' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 73.
+(hyperref)                removing `math shift' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 73.
+(hyperref)                removing `superscript' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 73.
+(hyperref)                removing `math shift' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 73.
+(hyperref)                removing `math shift' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 73.
+(hyperref)                removing `superscript' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 73.
+(hyperref)                removing `math shift' on input line 70.
 
 [1{/home/nbreer/.local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-<./flavor_plots/wilson_c7.png><./flavor_plots/wilson_c9_c10.png><./flavor_plots/angular_describtion.png>]
-<flavor_plots/double_gamma.png, id=36, 654.94687pt x 162.6075pt>
+<./flavor_plots/wilson_c7.png><./flavor_plots/wilson_c9_c10.png>]
+<flavor_plots/double_gamma.png, id=32, 654.94687pt x 162.6075pt>
 File: flavor_plots/double_gamma.png Graphic file (type png)
 <use flavor_plots/double_gamma.png>
-Package luatex.def Info: flavor_plots/double_gamma.png  used on input line 85.
+Package luatex.def Info: flavor_plots/double_gamma.png  used on input line 88.
 (luatex.def)             Requested size: 227.62204pt x 56.51152pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 85--86
+Overfull \hbox (5.0pt too wide) in paragraph at lines 88--89
  [][] 
  []
 
 
-Overfull \hbox (92.0876pt too wide) in paragraph at lines 86--86
+Overfull \hbox (92.0876pt too wide) in paragraph at lines 89--89
 [] [] 
  []
 
-<flavor_plots/tension_in_p5.png, id=38, 337.26pt x 229.60782pt>
+
+LaTeX Warning: Reference `tab:coefff' on page 2 undefined on input line 96.
+
+
+Overfull \hbox (31.08401pt too wide) detected at line 108
+[][] \TU/LatinModernMath(1)/m/n/10.95 = [] [] 𝑆[](𝑞[], 𝑞[])𝑓[]([])
+ []
+
+<flavor_plots/tension_in_p5.png, id=34, 337.26pt x 229.60782pt>
 File: flavor_plots/tension_in_p5.png Graphic file (type png)
 <use flavor_plots/tension_in_p5.png>
-Package luatex.def Info: flavor_plots/tension_in_p5.png  used on input line 106.
+Package luatex.def Info: flavor_plots/tension_in_p5.png  used on input line 120.
 (luatex.def)             Requested size: 227.62204pt x 154.96808pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 106--107
+Overfull \hbox (5.0pt too wide) in paragraph at lines 120--121
  [][] 
  []
 
 
-Overfull \hbox (92.0876pt too wide) in paragraph at lines 107--107
+Overfull \hbox (92.0876pt too wide) in paragraph at lines 121--121
 [] [] 
  []
 
-LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 122.
-LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 122.
-[2<./flavor_plots/double_gamma.png><./flavor_plots/tension_in_p5.png>]
-Overfull \hbox (42.83609pt too wide) detected at line 140
-[] \TU/LatinModernMath(1)/m/n/10.95 ⋅ []|[] = [] ⋅ 𝑓(𝐹[], 𝜃[], 𝜃[], 𝐴[], 𝑆[])
+[2<./flavor_plots/angular_describtion.png><./flavor_plots/double_gamma.png>]
+<flavor_plots/q2_spectrum.png, id=53, 354.57469pt x 240.9pt>
+File: flavor_plots/q2_spectrum.png Graphic file (type png)
+<use flavor_plots/q2_spectrum.png>
+Package luatex.def Info: flavor_plots/q2_spectrum.png  used on input line 144.
+(luatex.def)             Requested size: 227.62204pt x 154.64964pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 144--146
+ [][] 
  []
 
 
-Overfull \hbox (2.55045pt too wide) detected at line 150
-\TU/LatinModernMath(1)/m/n/10.95 PDF[] = 𝑓[]PDF[]([], 𝑚) + (1 − 𝑓[])PDF[]
+Overfull \hbox (92.0876pt too wide) in paragraph at lines 146--146
+[] [] 
  []
 
-<pictures/fullfit.png, id=61, 341.275pt x 234.8775pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (34.466pt too wide) detected at line 154
+\TU/LatinModernMath(1)/m/n/10.95 PDF[] = 𝑓[]PDF[]([], 𝑚) + (1 − 𝑓[])PDF[]([], 𝑚)
+ []
+
+<pictures/fullfit.png, id=57, 341.275pt x 234.8775pt>
 File: pictures/fullfit.png Graphic file (type png)
 <use pictures/fullfit.png>
-Package luatex.def Info: pictures/fullfit.png  used on input line 158.
+Package luatex.def Info: pictures/fullfit.png  used on input line 162.
 (luatex.def)             Requested size: 227.62204pt x 156.66107pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 158--159
+Overfull \hbox (5.0pt too wide) in paragraph at lines 162--163
  [][] 
  []
 
 
-Overfull \hbox (92.0876pt too wide) in paragraph at lines 159--159
+Overfull \hbox (92.0876pt too wide) in paragraph at lines 163--163
 [] [] 
  []
 
-<pictures/uncertainties.png, id=64, 587.19376pt x 343.2825pt>
-File: pictures/uncertainties.png Graphic file (type png)
-<use pictures/uncertainties.png>
-Package luatex.def Info: pictures/uncertainties.png  used on input line 182.
-(luatex.def)             Requested size: 227.62204pt x 133.06772pt.
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 182--183
- [][] 
- []
-
-
-Overfull \hbox (92.0876pt too wide) in paragraph at lines 183--183
-[] [] 
- []
-
-
-Underfull \vbox (badness 6252) has occurred while \output is active []
-
- [3<./pictures/fullfit.png><./pictures/uncertainties.png>]
-Underfull \hbox (badness 2368) in paragraph at lines 199--199
+[3<./flavor_plots/tension_in_p5.png><./flavor_plots/q2_spectrum.png><./pictures/fullfit.png>]
+Underfull \hbox (badness 2368) in paragraph at lines 204--204
 \TU/lmr/m/n/10.95 07 (2010), p. 098. \TU/lmr/m/sc/10.95 doi\TU/lmr/m/n/10.95 : []$\TU/lmtt/m/n/10.95 10 . 1007 /
- []
-
-
-Underfull \hbox (badness 1292) in paragraph at lines 199--199
-[]\TU/lmr/m/n/10.95 Eluned Anne Smith. \TU/lmr/m/it/10.95 Up-dated an-gu-lar
- []
-
-
-Underfull \hbox (badness 1297) in paragraph at lines 199--199
-\TU/lmr/m/it/10.95 anal-y-sis of the de-cay $\TU/LatinModernMath(1)/m/n/10.95 𝐵[] → 𝐾[](→
  []
 
 The property list \polyglossia@langsetup contains the pairs (without outer
@@ -1821,36 +1811,40 @@ braces):
 [4
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
  (./build/new_proceedings.aux
-LaTeX Info: Redefining \rmfamily on input line 30.
-LaTeX Info: Redefining \sffamily on input line 30.
-LaTeX Info: Redefining \ttfamily on input line 30.
+LaTeX Info: Redefining \rmfamily on input line 28.
+LaTeX Info: Redefining \sffamily on input line 28.
+LaTeX Info: Redefining \ttfamily on input line 28.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 205.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 205.
 Package rerunfilecheck Info: File `new_proceedings.aux' has not changed.
-(rerunfilecheck)             Checksum: 7B49B67F5E387F177D2A7F4ED0919FE0;4025.
+(rerunfilecheck)             Checksum: F42CD6E4C9268558540E3B3054EF8172;4242.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'new_proceedings.run.xml'.
 
 \openout1 = new_proceedings.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 59590 strings out of 480878
+ 59682 strings out of 480878
  125171,2848258 words of node,token memory allocated
- 689 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 19 attribute, 74 glue_spec, 19 attribute_list, 2 write, 4 pdf_action nodes
-   avail lists: 1:6,2:516,3:207,4:86,5:263,6:26,7:4625,8:61,9:594,10:17,11:310
- 75666 multiletter control sequences out of 65536+600000
- 204 fonts using 75785131 bytes
- 73i,11n,114p,882b,2934s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/xits/XITSMath-Regular.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>
-Output written on new_proceedings.pdf (4 pages, 285343 bytes).
+ 670 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 16 attribute, 74 glue_spec, 16 attribute_list, 2 write, 4 pdf_action nodes
+   avail lists: 1:5,2:936,3:193,4:74,5:346,6:27,7:5952,8:64,9:605,10:16,11:363
+ 75759 multiletter control sequences out of 65536+600000
+ 248 fonts using 93160463 bytes
+ 73i,15n,114p,882b,2934s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/xits/XITSMath-Regular.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf></home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>
+Output written on new_proceedings.pdf (4 pages, 261356 bytes).
 
-PDF statistics: 197 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 131072)
+PDF statistics: 174 PDF objects out of 1000 (max. 8388607)
+ 110 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
