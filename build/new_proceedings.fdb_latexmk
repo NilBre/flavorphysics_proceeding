@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber build/new_proceedings"] 1596994630 "build/new_proceedings.bcf" "build/new_proceedings.bbl" "build/new_proceedings" 1597063138
-  "build/new_proceedings.bcf" 1597063138 102165 7b75bbc1313208d1ceb69707751e4e4a "lualatex"
+["biber build/new_proceedings"] 1597145114 "build/new_proceedings.bcf" "build/new_proceedings.bbl" "build/new_proceedings" 1597145343
+  "build/new_proceedings.bcf" 1597145343 102226 27ee2ca02e5c032ecf341b4539a70635 "lualatex"
   "lit.bib" 1596973360 6088 b6751de22d58063f1900a4a8bed1fe59 ""
   (generated)
-  "build/new_proceedings.bbl"
   "build/new_proceedings.blg"
-["lualatex"] 1597063133 "new_proceedings.tex" "build/new_proceedings.pdf" "new_proceedings" 1597063138
+  "build/new_proceedings.bbl"
+["lualatex"] 1597145337 "new_proceedings.tex" "build/new_proceedings.pdf" "new_proceedings" 1597145343
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
@@ -331,21 +331,23 @@
   "/home/nbreer/.local/texlive/2020/texmf-var/luatex-cache/generic-dev/names/luaotfload-names.luc" 1594970721 1273657 091e2941a3b87ec0243f0b0c042fc8d4 ""
   "/home/nbreer/.local/texlive/2020/texmf-var/tex/generic/config/language.dat.lua" 1594939795 17556 b8b072a7d51a633e2d3e153c37c233e1 ""
   "/home/nbreer/.local/texlive/2020/texmf-var/web2c/luahbtex/lualatex.fmt" 1594939820 2676083 dde2cb981ae1f5f693542a37e92a2d18 ""
-  "build/new_proceedings.aux" 1597063138 4242 9bc1e9fbe388a50040445a5e257b11ec "lualatex"
-  "build/new_proceedings.bbl" 1596994631 7678 ee0f15788d4f8a3a61733e820e29ffc4 "biber build/new_proceedings"
-  "build/new_proceedings.run.xml" 1597063138 2475 6ddc237dda7470546e9a9144753ef507 "lualatex"
+  "build/new_proceedings.aux" 1597145343 4876 6d176dbc91058882b7a8eb5bb932d32c "lualatex"
+  "build/new_proceedings.bbl" 1597145115 7678 ee0f15788d4f8a3a61733e820e29ffc4 "biber build/new_proceedings"
+  "build/new_proceedings.run.xml" 1597145343 2475 6ddc237dda7470546e9a9144753ef507 "lualatex"
   "flavor_plots/angular_describtion.png" 1596203148 13312 b5c8574957d86faa031af29f1b7deb7d ""
   "flavor_plots/double_gamma.png" 1596709910 88465 f234989a676b5565f4e2e75d839a2344 ""
+  "flavor_plots/p5_tension_after.png" 1597143306 42707 24de76ba7a3b78593680b22bf0c08626 ""
   "flavor_plots/q2_spectrum.png" 1596969056 59221 0c2f5e9980710b1186dc717ca042c187 ""
+  "flavor_plots/result_s5.png" 1597143261 22613 c2b0629d9da4c253ef65f962617eb8b5 ""
+  "flavor_plots/shift.png" 1597144340 78577 e445e8700bb4e69776ca669ca68020c2 ""
+  "flavor_plots/shift_min.png" 1597144486 36445 7e638dbe5394dccfe3d3d7334bef1d46 ""
   "flavor_plots/tension_in_p5.png" 1596128046 23654 8fdf3081e2ab50ec4c136f5215e099ad ""
-  "flavor_plots/wilson_c7.png" 1596200794 9944 ba4e37696f39fe40fcdc5d19091437e1 ""
-  "flavor_plots/wilson_c9_c10.png" 1596200817 16417 40a2c49055291961314f0900ac1f5172 ""
   "header.tex" 1596122202 4402 68d2f4a700b80c892ef74d1b017e7c30 ""
-  "new_proceedings.tex" 1597063124 13336 aa1206b6794eaefaa5b8119f76f4adca ""
+  "new_proceedings.tex" 1597145217 13969 ba6bf3111391e1c5af7713aef5a3b2ea ""
   "pictures/fullfit.png" 1594973441 46003 fad57f87eb0eed67a90a629901278403 ""
   (generated)
-  "build/new_proceedings.run.xml"
   "build/new_proceedings.aux"
   "build/new_proceedings.pdf"
   "build/new_proceedings.bcf"
+  "build/new_proceedings.run.xml"
   "build/new_proceedings.log"
