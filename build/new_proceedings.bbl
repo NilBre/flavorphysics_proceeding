@@ -19,6 +19,52 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{semilep}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b49cfb7e70ddc68649325b78f6b7a124}{%
+           family={Beaujean},
+           familyi={B\bibinitperiod},
+           given={Frederik},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2ef016b2c2603184fc73884071dc1a4a}{%
+           family={Bobeth},
+           familyi={B\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=808ffc5ee43dc11d2d873efd72cad864}{%
+           family={Dyk},
+           familyi={D\bibinitperiod},
+           given={Danny},
+           giveni={D\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{2fd26502c597286b28c19997901a5383}
+      \strng{fullhash}{2fd26502c597286b28c19997901a5383}
+      \strng{bibnamehash}{2fd26502c597286b28c19997901a5383}
+      \strng{authorbibnamehash}{2fd26502c597286b28c19997901a5383}
+      \strng{authornamehash}{2fd26502c597286b28c19997901a5383}
+      \strng{authorfullhash}{2fd26502c597286b28c19997901a5383}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J. C}
+      \field{note}{[Erratum: Eur.Phys.J.C 74, 3179 (2014)]}
+      \field{title}{{Comprehensive Bayesian analysis of rare (semi)leptonic and radiative $B$ decays}}
+      \field{volume}{74}
+      \field{year}{2014}
+      \field{pages}{2897}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-014-2897-0
+      \endverb
+      \verb{eprint}
+      \verb 1310.2478
+      \endverb
+    \endentry
     \entry{Blake:2017wjz}{article}{}
       \name{author}{6}{}{%
         {{hash=dd3959d70d288f993c459915d90acb31}{%
@@ -205,6 +251,36 @@
       \endverb
       \verb{url}
       \verb https://fias.frankfurtium.de/downloads/04_hqm_cb.pdf
+      \endverb
+    \endentry
+    \entry{bdt}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2058c02109a44f662ef54328099cfd17}{%
+           family={Y.\bibnamedelimi Freund},
+           familyi={Y\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={R.\bibnamedelimi E.\bibnamedelimi Schapire},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2058c02109a44f662ef54328099cfd17}
+      \strng{fullhash}{2058c02109a44f662ef54328099cfd17}
+      \strng{bibnamehash}{2058c02109a44f662ef54328099cfd17}
+      \strng{authorbibnamehash}{2058c02109a44f662ef54328099cfd17}
+      \strng{authornamehash}{2058c02109a44f662ef54328099cfd17}
+      \strng{authorfullhash}{2058c02109a44f662ef54328099cfd17}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://doi.org/10.1006/jcss.1997.1504
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1006/jcss.1997.1504
       \endverb
     \endentry
   \enddatalist

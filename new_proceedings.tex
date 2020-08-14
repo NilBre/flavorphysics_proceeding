@@ -22,29 +22,25 @@
 \maketitle
 
 % meins:
+
 The LHCb collaboration has published new results regarding flavor changing neutral currents based on recent studies for physics beyond standard model. FCNC are very promising decay types since they only occur at loop level and are therefore very sensitive for new physics.
 The data from the previous analysis in 2011 and 2012 were expanded by the 2016 data which results in twice the amount of statistics.
 With this and a deeper understanding of theoretical uncertainties an angular analysis was performed. The hints on a local tension in $P_5\prime$ were confirmed with this analysis. One of the explanations points to a shift in the wilson coefficient $C_9$.
 The most sensitive observables to $C_9$ are the $q^2$ dependence of the forward-backward asymmetry and $P_5\prime$.
 The significance of the tension results in $2.7$ - $3.3\sigma$.
+The complete set of measurements into the $b \to s \mu^{-} \mu^{+}$ transition performed by various experiments includes the observables $R_K$ and $R_K^{*}$, describing ratios corresponding to $B \to K^{*} ll$ decays involving muons and electrons. This analysis focusses on observables in the $P_i$ and $S_i$ basis and does not include $R_K$ and $R_K^{*}$.
 
 The stated Process is of such importance because the
 $b \to s \mu \mu$ transition is forbidden at tree level due to FCNC and can only occur at loop order.
 Because of that, these processes are much more sensitive to new physics(NP).
 
-% \begin{figure}[htb]
-%   \centering
-%   \includegraphics[width=0.5\textwidth]{flavor_plots/wilson_c7.png}
-%   \caption{Wilson coefficient $C_7$ in .}
-%   \label{fig:sm_process}
-% \end{figure}
-%
-% \begin{figure}[htb]
-%   \centering
-%   \includegraphics[width=0.5\textwidth]{flavor_plots/wilson_c9_c10.png}
-%   \caption{Process in new physics model.}
-%   \label{fig:np_process}
-% \end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\textwidth]{flavor_plots/sm_process.png}
+  \caption{The SM process of $b \to s \mu^{-} \mu^{+}$. \\
+          The green box can be described with NP models.}
+  \label{fig:sm_process}
+\end{figure}
 
 To gather information about short distance NP above the SM energy scale $\mu$, wilson coefficients $C_i(\mu)$ and low-energy QCD Operators $O_i$ are used to describe that.
 
@@ -80,12 +76,12 @@ The angle between the $K^{*0}$-plane and the dimuon-plane is defined by the angl
 Considering that S-wave contribution, spinless $K^{+}\pi^{-}$ constellations, can pollute the measurement, therfore a parametrization such as $\left(1 - F_S\right)$ for this was taken into account where $(1 -F_S)$ is the S-wave fraction which describes the amount of S-wave contribution.
 The interference Amplitude between P-wave and S-wave decays are parametrized by $A_S$.
 The angular distribution\cite{Chatrchyan:2013cda} for the $B^0 \to K^{*0} \mu \mu$ decay reads
-\begin{equation*}
+\begin{equation}
   \frac{1}{\Gamma}\frac{\symup{d}^3\Gamma}{\symup{d}\theta_k\symup{d}\theta_l\symup{d}q^2} = \frac{9}{16}f\left(F_S, A_S, \theta_k, \theta_l, A_{FB}, F_L\right)
   \label{eqn:swave}
-\end{equation*}
+\end{equation}
 Since $A_{FB}$, $F_L$ and $\mathcal{A}\times\Epsilon$ do not depend on the angle $\phi$, it is already integrated out.
-The angular description for The $B$ and $\bar{B}$ are combined afterwards and expanded into a sum of the angular variables multiplied with a fitparameter, which are the $A_{FB}$, $F_L$ and $S_i$, as seen in figure \ref{fig:dubgamma}, which are called CP-averaged observables because they contain CP violation.
+The angular description for The $B$ and $\bar{B}$ are combined afterwards and expanded into a sum of the angular variables multiplied with a fitparameter, which are the $A_{FB}$, $F_L$ and $S_i$, as seen in figure \ref{fig:dubgamma}, which are called CP-averaged observables.
 The CP asymmetries need to be analyzed further because NP could contribute differently to CP-conjugated processes.
 
 \begin{figure}[htb]
@@ -115,7 +111,7 @@ in the $S_i$ basis where $\vec{\Omega} = (\cos\theta_l, \cos\theta_k)$.
 The $S_i$ basis contains the six angular coefficients which are the combinations of the $K^{0*}$ amplitudes. These amplitudes describe the polarization states of the Kaon.
 
 This analysis especially focuses heavily on the tension induced by $P_5\prime$, since it is a very sensitive variable for $C_9$.
-This can be seen in the range of $4$ - $8$ $\frac{\symup{GeV}^2}{c^4}$ displayed in figure \ref{p5tension}.
+This can be seen in the range of $4$ - $8$ $\frac{\symup{GeV}^2}{c^4}$ displayed in figure \ref{fig:p5tension}.
 The discrepancy is $2.8\sigma$ for the $q^2$ intervall from $4$ - $6$ $\frac{\symup{GeV}^2}{c^4}$ and $3\sigma$ for the $6$ - $8$ $\frac{\symup{GeV}^2}{c^4}$ intervall.
 For every collaboration a discrepancy between the SM and the measurement
 is visible, but the CMS measurement is the closest the the SM prediction.
@@ -124,7 +120,7 @@ is visible, but the CMS measurement is the closest the the SM prediction.
   \centering
   \includegraphics[width=0.5\textwidth]{flavor_plots/tension_in_p5.png}
   \caption{tension in $P_5\prime$.\cite{Blake:2017wjz}}
-  \label{p5tension}
+  \label{fig:p5tension}
 \end{figure}
 
 For this analysis the data sets used are from the years 2011, 2012 and 2016. The data sets from 2011 and 2012 are from run 1.
@@ -132,15 +128,19 @@ The 2011 data was taken at a centre of mass energy of $\sqrt{s} = \SI{7}{\tera\e
 
 For the selection of candidates it is required, that the impact paramters for the daughter particles are quite significant since they do not originate from the primary vertex.
 Daughter particles that come from the primary vertex need to have a very small impact parameter and also a quality vertex is necessary. That means the track fit $\frac{\chi^2}{dof}$ must be small, where dof are the degrees of freedom.
+Also two muon candidates, a kaon and a pion are required.
 To suppress peaking background as seen in figure \ref{fig:q2_spec} the particle identification is used.
 The FCNC process here is described by $B^0 \to K^{0*}\mu\mu$, but the subprocesses such as $B^0 \to K^{0*}\left(\bar{c}c \to \gamma^{*} \to \mu\mu\right)$ are statistical relevant since they proceed at tree level.
 Therefore charmonium resonances pollute the $q^2$ spectrum, especially at the $\symup{J}/\Psi(1S)$ and the $\Psi(2S)$ mass.
 Around these peaks a mass-veto region is defined where signal decays are neglected if they fall into the veto region.
 Left, in between and on the right of the peaks the signal regions are defined.
-A multivariate analysis(MVA) is performed to suppress combinatorial background even further.
+A multivariate analysis(MVA)\cite{bdt} is performed to suppress combinatorial background, incorrectly vertexed tracks, even further.
 MVA is a machine learning technique in which a classifier or regressor takes several features to learn from and to make a prediction on what is background and what belongs to the signal.
 To suppress $J/\Psi \to ll$ contributions, the invariant mass spectrum is looked at.
 The most common features are: small momentum particles and small opening angles and a large $\symup{d}E / \symup{d}x$.
+Other input variables are the $B^0$ decay time, vertex-fit quality, momentum and transverse momentum of $B^0$ candidate, $\theta_{\text{DIRA}}$ as well as particle identification from the RICH detector.
+$\theta_{\text{DIRA}}$ describes the opening angle between the reconstructed $B^0$ momentum and the vector connecting the reconstructed $B^0$ decay vertex to the primary vertex.
+The classifier is trained on $B \to J/\Psi K^{0*}$ candidates as signal. The background consists of candidates from the mass region $m(B \to K^{+} \pi^{-} \mu^{+} \mu^{-}) \in[5350 \text{MeV}, 7000 \text{MeV}]$.
 Since the detector cannot know which lepton pairs belong together, all possible combinations are tested. Combinations with same signed leptons ($N^{++}$ or $N^{--}$) are always uncorrelated so the signal S results in $S = N^{+-} - (N^{++} + N^{--})$. This is called the like-sign method\cite{combinatoric}.
 $N^{+-}$ are the opposite sign lepton pairs.
 
@@ -174,11 +174,13 @@ Because of the factorization of the signal and background PDF
   \symup{PDF}_{sig}(\vec{\Omega}, m) &= \symup{PDF}_{sig}(\vec{\Omega}) \times \symup{PDF}_{sig}(m) \\
   \symup{PDF}_{bkg}(\vec{\Omega}, m) &= \symup{PDF}_{bkg}(\vec{\Omega}) \times \symup{PDF}_{bkg}(m)
 \end{align*}
-the angular part of the signal PDF of the Run 1 data and the data from 2016 are shared in the analysis to perform a simultaneous fit $\sum_i S_{i, q_{bin}^2} f_i(\Omega)$ because the angular part of the signal PDF corresponds to $f_i(\Omega)$. The $S_i$ are thus used as fitparameters.
-% (not sure if this is right).
+the angular part of the signal PDF of the Run 1 data and the data from 2016 are shared in the analysis to perform a simultaneous fit $\sum_i S_{i, q_{bin}^2} f_i(\Omega)$. This is possible since they do not share the same mass and angular background because the conditions in the 2016 data sample differs from Run 1 data.
 
-The dominant systematic uncertainties areacceptance variations with $q^2$, peaking backgrounds as seen in figure \ref{fig:q2_spec} and bias corrections. That means if the S-wave contribution $F_S$, then the angular spectrum is biased towards the P-wave. If $F_S \approx 1$, it is biased towards the S-wave.
-The uncertainty related to the contribution from the S-wave or P+S interference is evaluated by taking the difference between the default results, obtained by fitting with a function accounting for the S-wave \eqref{eqn:swave}, with the results from a fit performed with no S-wave or interference terms where $F_S = 0$ and $A_S = 0$.\cite{Chatrchyan:2013cda}
+The efficiency needs correction since it's behavior is not flat.
+Legendre polynomials are used for the dimuon mass and the three angles which results in a 4D formular. The correlation between the observables negates the factorization of the 4D function to 1D functions.
+
+The dominant systematic uncertainties are acceptance variations with $q^2$, peaking backgrounds and bias corrections as seen in figure \ref{fig:q2_spec}. The uncertainty related to the contribution from the S-wave or P+S interference is evaluated by taking the difference between the default results, obtained by fitting with a function accounting for the S-wave \eqref{eqn:swave}, with the results from a fit performed with no S-wave or interference terms where $F_S = 0$ and $A_S = 0$.\cite{Chatrchyan:2013cda}
+Bias relates to the S-wave contribution $F_S$. If it is small, the angular spectrum is biased towards the P-wave. If $F_S \approx 1$, it is biased towards the S-wave.
 
 Taking all that into account $S_5$ is in a quite good agreement with the SM and the Run 1 and 2016 measurement are very similar too.\ref{fig:s5}
 Also the local tension in $P_5\prime$ is in a better agreement with the SM than before.\ref{fig:p5_after}
@@ -197,22 +199,29 @@ For the $q^2 \in [6.0, 8.0] \frac{\symup{GeV}^2}{c^4}$ bin a deviation of $\SI{2
   \label{fig:p5_after}
 \end{figure}
 
-A shift in $\symup{Re}(C_9)$ clearly shows, that improvements in the overall significance can be made\ref{fig:shift_min}. For a shift of $\symup{Re}(C_9) = -1, -1.5$ the data for Run 1 and 2016 combined lie right in between.\ref{fig:shift}
-\begin{figure}[htb]
+A shift in $\symup{Re}(C_9)$ clearly shows, that improvements in the overall significance can be made as seen in figure \ref{fig:shift_min}. Figure \ref{fig:shift} shows the angular observable $P_5\prime$ as a function of $q^2$. Two variations of the wilson coefficient $C_9$ are displayed. These preferred variations close the gap between the SM prediction the data which would reduce local tension.
+\begin{figure}
   \centering
   \includegraphics[width=0.5\textwidth]{flavor_plots/shift_min.png}
-  \caption{variation of only $C_9$.}
-  \label{ref:shift_min}
+  \caption{shift in the real part of $C_9$ \\
+  yielded from the analysis.}
+  \label{fig:shift_min}
 \end{figure}
-\begin{figure}[htb]
+\begin{figure}
   \centering
   \includegraphics[width=0.5\textwidth]{flavor_plots/shift.png}
-  \caption{shift of $C_9$.}
-  \label{ref:shift}
+  \caption{angular observable $P_5\prime$ \\
+  as a function of $q^2$. SM prediction \\
+  and theory with shifted $C_9$.}
+  \label{fig:shift}
 \end{figure}
 
-For the overall significance of the local tension depends on the nuissance parameters and also on which $q^2$ bins are fitted.
-Also the tension in $P_5\prime$ was confirmed.
+With that being said, the results presented in the seminar emphasize the overall tension proposed in Run 1 data from previous measurements.
+The higher overall tension does not confirm new physics but only hint at it. Different measurements at different scales could yield a deeper understanding an a more precise measurement which might confirm the hints. Futher studies in $b \to s$ transitions such as $b \to s \gamma$ could contribute to the analysis\cite{semilep}.
+In order to study ne physics at higher scales, an angular analysis is important since the optimised basis reduce the theoretical uncertainties from form factors.
+
+% mehr bias explanation
+% The bias correction in Table 3 refers to the biases observed when generating pseudoexperiments using the result of the best fit to data, as discussed in the letter.
 
 \printbibliography{}
 \end{document}

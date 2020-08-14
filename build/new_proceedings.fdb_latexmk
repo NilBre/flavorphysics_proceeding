@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber build/new_proceedings"] 1597145114 "build/new_proceedings.bcf" "build/new_proceedings.bbl" "build/new_proceedings" 1597145343
-  "build/new_proceedings.bcf" 1597145343 102226 27ee2ca02e5c032ecf341b4539a70635 "lualatex"
-  "lit.bib" 1596973360 6088 b6751de22d58063f1900a4a8bed1fe59 ""
+["biber build/new_proceedings"] 1597402739 "build/new_proceedings.bcf" "build/new_proceedings.bbl" "build/new_proceedings" 1597402856
+  "build/new_proceedings.bcf" 1597402855 102322 e6b13042a18c4ad2e0ec7a871bf300d0 "lualatex"
+  "lit.bib" 1597402728 6879 ade6e16cbe6fcdb5aeca3868c0e80a70 ""
   (generated)
   "build/new_proceedings.blg"
   "build/new_proceedings.bbl"
-["lualatex"] 1597145337 "new_proceedings.tex" "build/new_proceedings.pdf" "new_proceedings" 1597145343
+["lualatex"] 1597402850 "new_proceedings.tex" "build/new_proceedings.pdf" "new_proceedings" 1597402856
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
@@ -15,6 +15,7 @@
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf" 1255129361 117732 558aeb4ada25b652cc2e9bcf0771e962 ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf" 1255129361 110400 d844cffffa1af59f9d2bb1bfdb6f1a2c ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf" 1255129361 110248 1d75fdc9dbe45e70de83ff6cc79a81c9 ""
+  "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf" 1255129361 111948 cee9e390fd6d23cfb4d6871ba2a9ee5b ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf" 1255129361 108740 82741d58d9334b5242a3acb1d982bd05 ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/xits/XITSMath-Regular.otf" 1593726388 548096 1d7ac9ed18c8aac00d80beb161b79f8d ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -331,9 +332,9 @@
   "/home/nbreer/.local/texlive/2020/texmf-var/luatex-cache/generic-dev/names/luaotfload-names.luc" 1594970721 1273657 091e2941a3b87ec0243f0b0c042fc8d4 ""
   "/home/nbreer/.local/texlive/2020/texmf-var/tex/generic/config/language.dat.lua" 1594939795 17556 b8b072a7d51a633e2d3e153c37c233e1 ""
   "/home/nbreer/.local/texlive/2020/texmf-var/web2c/luahbtex/lualatex.fmt" 1594939820 2676083 dde2cb981ae1f5f693542a37e92a2d18 ""
-  "build/new_proceedings.aux" 1597145343 4876 6d176dbc91058882b7a8eb5bb932d32c "lualatex"
-  "build/new_proceedings.bbl" 1597145115 7678 ee0f15788d4f8a3a61733e820e29ffc4 "biber build/new_proceedings"
-  "build/new_proceedings.run.xml" 1597145343 2475 6ddc237dda7470546e9a9144753ef507 "lualatex"
+  "build/new_proceedings.aux" 1597402855 5744 d73f5e5070deab7f00a1b233dc1f48ce "lualatex"
+  "build/new_proceedings.bbl" 1597402740 10718 bd5b8f1f974d9367182fa7cbac0735fd "biber build/new_proceedings"
+  "build/new_proceedings.run.xml" 1597402855 2475 6ddc237dda7470546e9a9144753ef507 "lualatex"
   "flavor_plots/angular_describtion.png" 1596203148 13312 b5c8574957d86faa031af29f1b7deb7d ""
   "flavor_plots/double_gamma.png" 1596709910 88465 f234989a676b5565f4e2e75d839a2344 ""
   "flavor_plots/p5_tension_after.png" 1597143306 42707 24de76ba7a3b78593680b22bf0c08626 ""
@@ -341,13 +342,14 @@
   "flavor_plots/result_s5.png" 1597143261 22613 c2b0629d9da4c253ef65f962617eb8b5 ""
   "flavor_plots/shift.png" 1597144340 78577 e445e8700bb4e69776ca669ca68020c2 ""
   "flavor_plots/shift_min.png" 1597144486 36445 7e638dbe5394dccfe3d3d7334bef1d46 ""
+  "flavor_plots/sm_process.png" 1597395342 35698 4ffec3284f73155debd9e9cf724cb7bc ""
   "flavor_plots/tension_in_p5.png" 1596128046 23654 8fdf3081e2ab50ec4c136f5215e099ad ""
   "header.tex" 1596122202 4402 68d2f4a700b80c892ef74d1b017e7c30 ""
-  "new_proceedings.tex" 1597145217 13969 ba6bf3111391e1c5af7713aef5a3b2ea ""
+  "new_proceedings.tex" 1597402841 16073 6a9facf6093826231621de8bba89e216 ""
   "pictures/fullfit.png" 1594973441 46003 fad57f87eb0eed67a90a629901278403 ""
   (generated)
-  "build/new_proceedings.aux"
-  "build/new_proceedings.pdf"
   "build/new_proceedings.bcf"
-  "build/new_proceedings.run.xml"
   "build/new_proceedings.log"
+  "build/new_proceedings.pdf"
+  "build/new_proceedings.run.xml"
+  "build/new_proceedings.aux"

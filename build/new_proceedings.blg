@@ -1,19 +1,21 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'build/new_proceedings.blg'
-[79] biber:322> INFO - === Di Aug 11, 2020, 13:25:15
-[93] Biber.pm:415> INFO - Reading 'build/new_proceedings.bcf'
-[171] Biber.pm:943> INFO - Found 4 citekeys in bib section 0
-[186] Biber.pm:4256> INFO - Processing section 0
+[77] biber:322> INFO - === Fr Aug 14, 2020, 12:59:00
+[92] Biber.pm:415> INFO - Reading 'build/new_proceedings.bcf'
+[171] Biber.pm:943> INFO - Found 6 citekeys in bib section 0
+[185] Biber.pm:4256> INFO - Processing section 0
 [186] Utils.pm:75> INFO - Globbing data source 'lit.bib'
 [186] Utils.pm:91> INFO - Globbed data source 'lit.bib' to lit.bib
-[187] Utils.pm:75> INFO - Globbing data source 'programme.bib'
-[187] Utils.pm:91> INFO - Globbed data source 'programme.bib' to programme.bib
+[186] Utils.pm:75> INFO - Globbing data source 'programme.bib'
+[186] Utils.pm:91> INFO - Globbed data source 'programme.bib' to programme.bib
 [197] Biber.pm:4455> INFO - Looking for bibtex format file 'lit.bib' for section 0
 [199] bibtex.pm:1653> INFO - LaTeX decoding ...
-[220] bibtex.pm:1471> INFO - Found BibTeX data source 'lit.bib'
-[278] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[278] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[278] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[278] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[287] bbl.pm:652> INFO - Writing 'build/new_proceedings.bbl' with encoding 'UTF-8'
-[290] bbl.pm:755> INFO - Output to build/new_proceedings.bbl
+[225] bibtex.pm:1471> INFO - Found BibTeX data source 'lit.bib'
+[285] Utils.pm:304> WARN - BibTeX subsystem: /tmp/biber_tmp_tIkF/lit.bib_11393.utf8, line 173, warning: 7 characters of junk seen at toplevel
+[302] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[302] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[302] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[302] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[313] bbl.pm:652> INFO - Writing 'build/new_proceedings.bbl' with encoding 'UTF-8'
+[318] bbl.pm:755> INFO - Output to build/new_proceedings.bbl
+[318] Biber.pm:128> INFO - WARNINGS: 1
