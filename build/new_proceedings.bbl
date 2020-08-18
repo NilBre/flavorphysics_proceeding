@@ -19,6 +19,42 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Aaij:2020nrf}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=8ca3e82f9358ba6fd01f7c11e88a3b2c}{%
+           family={Aaij},
+           familyi={A\bibinitperiod},
+           given={Roel},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{37166355a0326aa05fdf7eca8f9ad8f3}
+      \strng{fullhash}{37166355a0326aa05fdf7eca8f9ad8f3}
+      \strng{bibnamehash}{37166355a0326aa05fdf7eca8f9ad8f3}
+      \strng{authorbibnamehash}{37166355a0326aa05fdf7eca8f9ad8f3}
+      \strng{authornamehash}{37166355a0326aa05fdf7eca8f9ad8f3}
+      \strng{authorfullhash}{37166355a0326aa05fdf7eca8f9ad8f3}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{number}{1}
+      \field{title}{{Measurement of $C\!P$-averaged observables in the $B^0\rightarrow K^{*0}\mu^+\mu^-$ decay}}
+      \field{volume}{125}
+      \field{year}{2020}
+      \field{pages}{011802}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.125.011802
+      \endverb
+      \verb{eprint}
+      \verb 2003.04831
+      \endverb
+    \endentry
     \entry{semilep}{article}{}
       \name{author}{3}{}{%
         {{hash=b49cfb7e70ddc68649325b78f6b7a124}{%
@@ -221,66 +257,6 @@
       \endverb
       \verb{eprint}
       \verb 1308.3409
-      \endverb
-    \endentry
-    \entry{combinatoric}{online}{}
-      \name{author}{1}{}{%
-        {{hash=eb8e747819259134854240ae6ee201a8}{%
-           family={Stefan\bibnamedelima Kniege},
-           familyi={S\bibinitperiod\bibinitdelim K\bibinitperiod},
-           given={Bjørn\bibnamedelima Bäuchle},
-           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-      }
-      \strng{namehash}{eb8e747819259134854240ae6ee201a8}
-      \strng{fullhash}{eb8e747819259134854240ae6ee201a8}
-      \strng{bibnamehash}{eb8e747819259134854240ae6ee201a8}
-      \strng{authorbibnamehash}{eb8e747819259134854240ae6ee201a8}
-      \strng{authornamehash}{eb8e747819259134854240ae6ee201a8}
-      \strng{authorfullhash}{eb8e747819259134854240ae6ee201a8}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{How to subtract combinatorial Background}
-      \field{urlday}{9}
-      \field{urlmonth}{8}
-      \field{urlyear}{2020}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://fias.frankfurtium.de/downloads/04_hqm_cb.pdf
-      \endverb
-      \verb{url}
-      \verb https://fias.frankfurtium.de/downloads/04_hqm_cb.pdf
-      \endverb
-    \endentry
-    \entry{bdt}{online}{}
-      \name{author}{1}{}{%
-        {{hash=2058c02109a44f662ef54328099cfd17}{%
-           family={Y.\bibnamedelimi Freund},
-           familyi={Y\bibinitperiod\bibinitdelim F\bibinitperiod},
-           given={R.\bibnamedelimi E.\bibnamedelimi Schapire},
-           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \strng{namehash}{2058c02109a44f662ef54328099cfd17}
-      \strng{fullhash}{2058c02109a44f662ef54328099cfd17}
-      \strng{bibnamehash}{2058c02109a44f662ef54328099cfd17}
-      \strng{authorbibnamehash}{2058c02109a44f662ef54328099cfd17}
-      \strng{authornamehash}{2058c02109a44f662ef54328099cfd17}
-      \strng{authorfullhash}{2058c02109a44f662ef54328099cfd17}
-      \field{sortinit}{Y}
-      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting}
-      \field{urlday}{14}
-      \field{urlmonth}{8}
-      \field{urlyear}{2020}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://doi.org/10.1006/jcss.1997.1504
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1006/jcss.1997.1504
       \endverb
     \endentry
   \enddatalist
