@@ -259,6 +259,36 @@
       \verb 1308.3409
       \endverb
     \endentry
+    \entry{cern}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9131c423b9d0a22bd8f5a409ae1a1059}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Eluned\bibnamedelima Anne},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9131c423b9d0a22bd8f5a409ae1a1059}
+      \strng{fullhash}{9131c423b9d0a22bd8f5a409ae1a1059}
+      \strng{bibnamehash}{9131c423b9d0a22bd8f5a409ae1a1059}
+      \strng{authorbibnamehash}{9131c423b9d0a22bd8f5a409ae1a1059}
+      \strng{authornamehash}{9131c423b9d0a22bd8f5a409ae1a1059}
+      \strng{authorfullhash}{9131c423b9d0a22bd8f5a409ae1a1059}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Updated angular analysis of the decay $B^0\rightarrow K^{*0}(\to K^+ \pi^-)\mu^+\mu^-$}
+      \field{urlday}{17}
+      \field{urlmonth}{7}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://indi.to/bMm9K
+      \endverb
+      \verb{url}
+      \verb https://indi.to/bMm9K
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

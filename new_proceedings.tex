@@ -42,25 +42,22 @@ Because of that, these processes are much more sensitive to new physics(NP).
           The green box can be described with NP models.}
   \label{fig:sm_process}
 \end{figure}
-
 To gather information about short distance NP above the SM energy scale $\mu$, wilson coefficients $C_i(\mu)$ and low-energy QCD Operators $O_i$ are used to describe that.
-
 The wilson coefficients $C_7$, $C_9$ and $C_{10}$ are of great importance since observables like the forward-backward asymmetry and $P_5\prime$ are sensitive for $C_9$ especially.
-
 In an effective theory, $C_9$ and $C_{10}$ are used to describe the contribution from loops, in which electroweak gauge bosons are produced.  wilson coefficient $C_7$ describes the contribution from loopdiagramms which produce photons from the loops.
-
 This can be summarized by an effective hamiltonian
+
 \begin{equation*}
   H_{eff} = - \frac{4 G_f}{\sqrt{2}} \symup{V}_{tb} \symup{V}_{ts}^{*} \sum_i
-  C_i(\mu) \cdot O_i(\mu) + \text{h.c.}
+  C_i O_i + \text{h.c.}
 \end{equation*}
 
-$G_F$ is Fermi's constant, $\mu$ ist the renormalization scale, $\symup{V}_{tb} \symup{V}_{ts}^{*}$ contains leading flavor factors of the SM which lie in the CKM matrix elements $V_{ij}$.
+where $G_F$ is Fermi's constant, $\symup{V}_{tb} \symup{V}_{ts}^{*}$ contains leading flavor factors of the SM which lie in the CKM matrix elements $V_{ij}$ and h.c. denotes the complex conjugated wilson coefficients and non-pertubative QCD operators.
 
 % \section{angular Analysis}
 To measure the decay rate as a function of angles of the decay products, an angular analysis is performed.
 This is motivated by the fact, that the $K^{0*}$ is a meson with spin 1 therefore has three polarisation states. This results in a rich angular structure.
-The definition of the angular observables $\theta_{k}$, $\theta_{l}$ and $\phi$ is schematically shown in figure \ref{fig:angle_1}
+The definition of the angular observables $\theta_{k}$, $\theta_{l}$ and $\phi$ is shown in figure \ref{fig:angle_1}
 
 \begin{figure}[htb]
   \centering
@@ -128,10 +125,11 @@ For this analysis the data sets used are from the years 2011, 2012 and 2016. The
 The 2011 data was taken at a centre of mass energy of $\sqrt{s} = \SI{7}{\tera\electronvolt}$, the 2012 data at $\sqrt{s} = \SI{8}{\tera\electronvolt}$ and the added data set from 2016 was taken at $\sqrt{s} = \SI{13}{\tera\electronvolt}$. Adding the 2016 data also doubled the statistic to around $\SI{4.7}{\femto\barn\tothe{-1}}$.
 
 For the selection of candidates it is required, that the impact parameters of the daughter particles are quite significant since they do not originate from the primary vertex.
-% Tracks that come from the primary vertex need to have a very small impact parameter and also a quality vertex is necessary.
-That means the track fit $\frac{\chi^2}{dof}$ must be small, where dof are the degrees of freedom.
+Tracks that come from the primary vertex need to have a very small impact parameter and also a quality vertex is necessary.
+That means, particle tracks fit well to a common point.
 Also two muon candidates, a kaon and a pion are required.
-To suppress peaking background as seen in figure \ref{fig:q2_spec} the particle identification is used.
+Particle identification is used to suppress peaking backgrounds like
+$\bar{\Lambda}^0_b \to \bar{p} \to \pi^{-} K^{+} \mu^{+} \mu^{-}$.\cite{cern}
 The FCNC process here is described by $B^0 \to K^{0*}\mu\mu$, but the subprocesses such as $B^0 \to K^{0*}\left(\bar{c}c \to \gamma^{*} \to \mu\mu\right)$ are statistical relevant since they proceed at tree level.
 Therefore charmonium resonances pollute the $q^2$ spectrum, especially at the $\symup{J}/\Psi(1S)$ and the $\Psi(2S)$ mass.
 Around these peaks a mass-veto region is defined where signal decays are neglected if they fall into the veto region.

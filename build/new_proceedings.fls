@@ -522,10 +522,10 @@ INPUT /home/nbreer/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symb
 INPUT /home/nbreer/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /home/nbreer/.local/texlive/2020/texmf-var/luatex-cache/generic-dev/fonts/otl/lmroman8-regular.luc
 INPUT /home/nbreer/.local/texlive/2020/texmf-var/luatex-cache/generic-dev/fonts/otl/lmroman5-regular.luc
+INPUT ./flavor_plots/angular_describtion.png
+INPUT ./flavor_plots/angular_describtion.png
+INPUT ./flavor_plots/angular_describtion.png
 INPUT /home/nbreer/.local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./flavor_plots/angular_describtion.png
-INPUT ./flavor_plots/angular_describtion.png
-INPUT ./flavor_plots/angular_describtion.png
 INPUT /home/nbreer/.local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/nbreer/.local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/nbreer/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm

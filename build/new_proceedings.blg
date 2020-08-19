@@ -1,21 +1,21 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'build/new_proceedings.blg'
-[92] biber:322> INFO - === Di Aug 18, 2020, 19:37:51
-[110] Biber.pm:415> INFO - Reading 'build/new_proceedings.bcf'
-[205] Biber.pm:943> INFO - Found 5 citekeys in bib section 0
-[223] Biber.pm:4256> INFO - Processing section 0
-[224] Utils.pm:75> INFO - Globbing data source 'lit.bib'
-[224] Utils.pm:91> INFO - Globbed data source 'lit.bib' to lit.bib
-[224] Utils.pm:75> INFO - Globbing data source 'programme.bib'
-[224] Utils.pm:91> INFO - Globbed data source 'programme.bib' to programme.bib
-[236] Biber.pm:4455> INFO - Looking for bibtex format file 'lit.bib' for section 0
-[238] bibtex.pm:1653> INFO - LaTeX decoding ...
-[271] bibtex.pm:1471> INFO - Found BibTeX data source 'lit.bib'
-[339] Utils.pm:304> WARN - BibTeX subsystem: /tmp/biber_tmp_Ivp_/lit.bib_14561.utf8, line 173, warning: 7 characters of junk seen at toplevel
-[356] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[357] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[357] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[357] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[364] bbl.pm:652> INFO - Writing 'build/new_proceedings.bbl' with encoding 'UTF-8'
-[369] bbl.pm:755> INFO - Output to build/new_proceedings.bbl
-[369] Biber.pm:128> INFO - WARNINGS: 1
+[73] biber:322> INFO - === Mi Aug 19, 2020, 10:26:13
+[89] Biber.pm:415> INFO - Reading 'build/new_proceedings.bcf'
+[170] Biber.pm:943> INFO - Found 6 citekeys in bib section 0
+[186] Biber.pm:4256> INFO - Processing section 0
+[187] Utils.pm:75> INFO - Globbing data source 'lit.bib'
+[187] Utils.pm:91> INFO - Globbed data source 'lit.bib' to lit.bib
+[187] Utils.pm:75> INFO - Globbing data source 'programme.bib'
+[187] Utils.pm:91> INFO - Globbed data source 'programme.bib' to programme.bib
+[197] Biber.pm:4455> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[199] bibtex.pm:1653> INFO - LaTeX decoding ...
+[228] bibtex.pm:1471> INFO - Found BibTeX data source 'lit.bib'
+[290] Utils.pm:304> WARN - BibTeX subsystem: /tmp/biber_tmp_HKzr/lit.bib_5106.utf8, line 173, warning: 7 characters of junk seen at toplevel
+[309] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[309] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[310] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[310] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[322] bbl.pm:652> INFO - Writing 'build/new_proceedings.bbl' with encoding 'UTF-8'
+[328] bbl.pm:755> INFO - Output to build/new_proceedings.bbl
+[328] Biber.pm:128> INFO - WARNINGS: 1
